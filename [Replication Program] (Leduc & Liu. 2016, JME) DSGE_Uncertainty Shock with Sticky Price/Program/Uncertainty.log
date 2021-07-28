@@ -1,0 +1,57 @@
+Starting preprocessing of the model file ...
+Found 18 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 3).
+Processing outputs ...
+done
+Preprocessing completed.
+Randomize initial guess...
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : -1.8624 : 1
+Equation number 2 : 2.0832 : Lambda
+Equation number 3 : 2.0716 : q
+Equation number 4 : 13.1231 : m
+Equation number 5 : 4.6551 : qu
+Equation number 6 : -0.57996 : qv
+Equation number 7 : -1.6826 : N
+Equation number 8 : -0.86403 : u
+Equation number 9 : 12.3117 : U
+Equation number 10 : 0.78004 : Y
+Equation number 11 : 0.96418 : R
+Equation number 12 : -5.5565 : 12
+Equation number 13 : 0.66614 : JF
+Equation number 14 : 4.1607 : 14
+Equation number 15 : -0.2842 : 15
+Equation number 16 : 1.7759 : w
+Equation number 17 : -3.4511e-06 : 17
+Equation number 18 : -9.9631e-08 : 18
+
+
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print_info', 'E:\MathProgram\Dynare\4.6.4\matlab\print_info.m', 32)" style="font-weight:bold">print_info</a> (<a href="matlab: opentoline('E:\MathProgram\Dynare\4.6.4\matlab\print_info.m',32,0)">第 32 行</a>)
+Impossible to find the steady state (the sum of square residuals of the static equations is 414.8785). Either the model doesn't have a
+steady state, there are an infinity of steady states, or the guess values are too far from the solution
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('steady', 'E:\MathProgram\Dynare\4.6.4\matlab\steady.m', 102)" style="font-weight:bold">steady</a> (<a href="matlab: opentoline('E:\MathProgram\Dynare\4.6.4\matlab\steady.m',102,0)">第 102 行</a>)
+    print_info(info,options_.noprint, options_);
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Uncertainty.driver', 'C:\Users\lenovo\Desktop\研究生学习\module 8\Computation Study Group\PS2-Q1\PS2-Q1-codes-HKH\+Uncertainty\driver.m', 324)" style="font-weight:bold">Uncertainty.driver</a> (<a href="matlab: opentoline('C:\Users\lenovo\Desktop\研究生学习\module 8\Computation Study Group\PS2-Q1\PS2-Q1-codes-HKH\+Uncertainty\driver.m',324,0)">第 324 行</a>)
+steady;
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'E:\MathProgram\Dynare\4.6.4\matlab\dynare.m', 293)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('E:\MathProgram\Dynare\4.6.4\matlab\dynare.m',293,0)">第 293 行</a>)
+evalin('base',[fname '.driver']) ;} 
+dynare Uncertainty_Shock.mod
+Using 64-bit preprocessor
+Starting Dynare (version 4.6.4).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+Found 23 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 3).
+Processing outputs ...
+done
+Preprocessing completed.
+
